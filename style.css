@@ -1,16 +1,85 @@
 body{
     background-image: url("img/spa_galactico_animation.mp4");
     background-size: cover; 
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0;  
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(21, 26, 56, 1);
+    text-align: center;
+}
+
+h1 {
+    margin-right: 20px;
+    color: whitesmoke;
 }
 
 ul, li{
     list-style-type: none; 
     padding: 0;
     display: flex;
-    margin-right: 10px;
+    margin: 0;
 }
+
+li {
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
 li a {
     text-decoration: none; 
-    color: #000;
+    color: whitesmoke;
+}
+
+section.header-booking-section{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    justify-content: space-between;
+    color: whitesmoke;
+
+
+}
+
+button {
+    background-color: rgba(21, 26, 56, 1);
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(21, 26, 56, 1);
+    text-align: center;
+    margin-top: 100vh;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+.footer-item-top {
+    order: -1;
 }
