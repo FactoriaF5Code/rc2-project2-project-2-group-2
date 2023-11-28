@@ -1,7 +1,4 @@
 body{
-    background-image: url("img/spa_galactico_animation.mp4");
-    background-size: cover; 
-    background-repeat: no-repeat; 
     margin: 0; 
     padding: 0;  
 }
@@ -56,6 +53,28 @@ button {
     font-size: 16px;
     margin: 0px 20px;
 }
+
+main {
+    background-image: url("img/spa_galactico_animation.mp4");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+section.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100vh;
+    justify-content: center;
+}
+
+
+
+
 
 
 
