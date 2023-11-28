@@ -3,3 +3,14 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;   
 }
+
+ul, li{
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    margin-right: 10px;
+}
+li a {
+    text-decoration: none; 
+    color: #000;
+}
