@@ -41,8 +41,13 @@ section.header-booking-section{
     margin-left: auto;
     justify-content: space-between;
     color: whitesmoke;
+}
 
-
+h2 {
+    font-size: 72px;
+    font-family: "water-brush", cursive;
+    margin-right: 20px;
+    color: whitesmoke;
 }
 
 button {
@@ -52,6 +57,7 @@ button {
     text-decoration: none;
     font-size: 16px;
     margin: 0px 20px;
+    border-radius: 20px;
 }
 
 main {
@@ -63,13 +69,19 @@ main {
 }
 
 section.main-section {
+    text-align: center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.centered-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-    margin-top: 100vh;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -84,7 +96,6 @@ footer {
     padding: 10px;
     background-color: rgba(21, 26, 56, 1);
     text-align: center;
-    margin-top: 100vh;
     justify-content: space-between;
 }
 
