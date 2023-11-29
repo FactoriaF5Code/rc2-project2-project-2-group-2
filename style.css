@@ -1,0 +1,134 @@
+body{
+    margin: 0; 
+    padding: 0;  
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(21, 26, 56, 1);
+    text-align: center;
+}
+
+h1 {
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+ul, li{
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+li a {
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+section.header-booking-section{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+h2.main-section-title{
+    font-size: 72px;
+    font-family: "water-brush", cursive;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+button {
+    background-color: rgba(21, 26, 56, 1);
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+button.services-btn{
+    border-radius: 20px;
+}
+
+main {
+    background-image: url("img/spa_galactico_animation.mp4");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+section.main-section {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(185, 182, 161, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2.experience-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(21, 26, 56, 1);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+.footer-item-top {
+    flex-basis: 100%;
+}
