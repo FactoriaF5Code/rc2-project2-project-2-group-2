@@ -52,13 +52,6 @@ select.phone{
     color: whitesmoke;
 }
 
-h1{
-    font-size: 72px;
-    font-family: "Water-Brush", cursive;
-    margin-right: 20px;
-    color: whitesmoke;
-}
-
 button {
     background-color: rgba(21, 26, 56, 1);
     color: whitesmoke;
@@ -68,7 +61,16 @@ button {
     margin: 0px 20px;
     border: none;
     font-family: 'Cormorant Garamond', serif;
+}
 
+
+
+
+h1{
+    font-size: 72px;
+    font-family: "Water-Brush", cursive;
+    margin-right: 20px;
+    color: whitesmoke;
 }
 
 button.services-btn{
