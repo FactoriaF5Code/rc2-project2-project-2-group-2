@@ -1,13 +1,29 @@
-body{
-    margin: 0; 
-    padding: 0;  
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --header-bgcolormain: #151A38;
+    --header-colormain: #fff;
+    --header-colorsecond: #000;
+    --main-bgcolormain: #F4D8A0;
+    --main-bgcolor1: #E0F0EB;
+    --main-bgcolor2: #B9B6A1;
+    --main-bgcolor3: #C1FABE; 
+    --main-fontfamily: 'Cormorant Garamond', serif;
+    --main-fontfamilytitles: 'Water Brush', cursive;
 }
 
 header {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: rgba(21, 26, 56, 1);
+    background-color: var(--header-bgcolormain);
     text-align: center;
 }
 
@@ -20,11 +36,16 @@ ul, li{
     padding: 0;
     display: flex;
     margin: 0;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--main-fontfamily);
 }
 
 li.header-list{
     margin-right: 80px;
+}
+
+li.header-list a:hover{
+    color:var(--main-bgcolor3);
+    text-decoration: underline;
 }
 
 li {
@@ -48,19 +69,30 @@ section.header-booking-section{
 }
 
 select#phone{
-    background-color: rgba(21, 26, 56, 1);
+    background-color: var(--header-bgcolormain);
     color: whitesmoke;
+    font-family: var(--main-fontfamily);
+    font-size:16px;
+}
+
+select#phone:hover{
+    color: var(--main-bgcolor3);
 }
 
 button {
-    background-color: rgba(21, 26, 56, 1);
+    background-color: var(--header-bgcolormain);
     color: whitesmoke;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 16px;
     margin: 0px 20px;
     border: none;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--main-fontfamily);
+}
+
+button:hover{
+    color: var(--main-bgcolor3);
+    text-decoration: underline;
 }
 
 
@@ -77,6 +109,13 @@ button.services-btn{
     border-radius: 20px;
     border: 1px solid whitesmoke;
     font-family: 'Cormorant Garamond', serif;
+}
+
+button.services-btn:hover{
+    background-color: var(--main-bgcolor2);
+    color:var(--header-bgcolormain);
+    border:solid 1px var(--main-bgcolor2);
+    font-weight: 800;
 }
 
 main {
@@ -105,8 +144,8 @@ section.main-section {
 
 .box-container {
     border: 1px solid #ccc;
-    padding: 20px;
-    background-color: rgba(185, 182, 161, 1);
+    height: 20vh;
+    background-color: var(--main-bgcolor2);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -115,13 +154,15 @@ section.main-section {
 section.testimonials-section {
     background-color: white;
     padding: 20px;
-    height: 50vh;
+    height: 40vh;
 }
 
 h2.experience-title {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
+
 
 h2.testimonials-title {
     font-size: 48px;
@@ -151,8 +192,8 @@ h2.testimonials-title {
 footer {
     display: flex;
     align-items: center;
-    padding: 10px;
-    background-color: rgba(21, 26, 56, 1);
+    padding-left: 10px;
+    background-color: var(--header-bgcolormain);
     text-align: center;
     justify-content: space-between;
 }
@@ -163,13 +204,17 @@ footer {
     justify-content: flex-end;
     flex-direction: row;
     margin-right: 20px;
+    gap: 20px;
 }
 
 .footer-item-top {
     flex-basis: 100%;
     justify-content: flex-end;
-    margin-right: 20px;
+}
 
+li.social-media:hover {
+    cursor: pointer;
+    color: var(--main-bgcolor3);
 }
 
 img.footer-img{
@@ -177,8 +222,6 @@ img.footer-img{
     margin-right: 20px;
 }
 
-li.social-media:hover {
-    cursor: pointer;
-}
+
 
 
