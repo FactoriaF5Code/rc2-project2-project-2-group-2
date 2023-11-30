@@ -93,6 +93,7 @@ button {
 button:hover{
     color: var(--main-bgcolor3);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -109,13 +110,21 @@ button.services-btn{
     border-radius: 20px;
     border: 1px solid whitesmoke;
     font-family: 'Cormorant Garamond', serif;
+    margin:auto;
+    width:200px;
+    height: 60px;
 }
 
 button.services-btn:hover{
     background-color: var(--main-bgcolor2);
     color:var(--header-bgcolormain);
     border:solid 1px var(--main-bgcolor2);
-    font-weight: 800;
+    text-decoration: none;
+    border:solid 1px var(--main-bgcolor2);
+    font-weight: 600;
+    cursor: pointer;
+
+    
 }
 
 main {
@@ -150,6 +159,11 @@ section.main-section {
     flex-direction: column;
     text-align: center;
 }
+
+.experience-text {
+    max-width: 60ch; 
+    margin: 0 auto; 
+  }
 
 section.testimonials-section {
     background-color: white;
