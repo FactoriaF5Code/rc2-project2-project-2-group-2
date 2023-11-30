@@ -47,7 +47,7 @@ section.header-booking-section{
     color: whitesmoke;
 }
 
-select.phone{
+select#phone{
     background-color: rgba(21, 26, 56, 1);
     color: whitesmoke;
 }
@@ -112,12 +112,34 @@ section.main-section {
     text-align: center;
 }
 
+section.testimonials-section {
+    background-color: white;
+    padding: 20px;
+}
+
 h2.experience-title {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
+h2.testimonials-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Water-Brush", cursive;
+    text-align: center;
+}
 
+.testimonial-img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
 
 
 

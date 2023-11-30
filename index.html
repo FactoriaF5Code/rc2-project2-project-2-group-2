@@ -23,12 +23,12 @@
         </nav>
 
         <section class="header-booking-section">
-            <select class="phone" name="phone">
+            <select id="phone" name="phone">
                 <option value="+34 912 345 678">Tierra: +34 912 345 678</option>
-                <option value="+34 912 345 678">Luna: </option>
-                <option value="+34 912 345 678">Marte: </option>
-                <option value="+34 912 345 678">Jupiter: </option>
-                <option value="+34 912 345 678">Saturno: </option>
+                <option value="+1 555 123 4567">Luna: +1 355 123 4567</option>
+                <option value="+200 555 987 6543">Marte: +200 555 987 6543</option>
+                <option value="+351 555 246 8135">Júpiter: +351 855 246 8135</option>
+                <option value="+732 555 369 2580">Saturno: +732 155 369 2580</option>
             </select>
             <button type="button">RESERVAS</button>
         </section>
@@ -37,7 +37,7 @@
     <main>
         <section class="main-section">
             <div class="centered-content">
-                <h1 class="main-section-title">Relajate en las estrellas</h1>
+                <h1>Relajate en las estrellas</h1>
                 <button type="button" class="services-btn"><a href="services.html"></a>NUESTROS TRATAMIENTOS</button>
             </div>
         </section>
@@ -56,6 +56,52 @@
 
 
 
+
+        <section class="testimonials-section">
+            <h2 class="testimonials-title">Testimonios de nuestros clientes</h2>
+            <div class="testimonials-grid">
+            <article class="testimonial">
+                <img src="img/vectorAzul.png" alt="testimonial" class="testimonial-img">
+                <p class="testimonial-text">
+                    La sensación de ingravidez es increíble, y salí sintiéndome completamente renovado.
+                     El Spa Galáctico realmente sabe cómo proporcionar una experiencia de otro mundo.
+                </p>
+                <h3 class="testimonial-name">Alberto R.</h3>
+            </article>
+
+            <article class="testimonial">
+                <img src="img/vectorBeige.png" alt="testimonial" class="testimonial-img">
+                <p class="testimonial-text">
+                    Mi rostro nunca había lucido tan luminoso y rejuvenecido.
+                     Me encantó cómo utilizaron la tecnología de luz para mejorar los efectos del tratamiento. 
+                     ¡Me sentí como una estrella brillando en la galaxia!
+                </p>
+                <h3 class="testimonial-name">Laura P.</h3>
+            </article>
+
+            <article class="testimonial">
+                <img src="img/vectorRosa.png" alt="testimonial" class="testimonial-img">
+                <p class="testimonial-text">
+                    Sentí una paz mental increíble. Fue como un viaje espiritual guiado por las energías del universo.
+                     Este spa realmente entiende cómo conectar el bienestar con la temática cósmica.
+                </p>
+                <h3 class="testimonial-name">David S.</h3>
+            </article>
+
+            <article class="testimonial">
+                <img src="img/vectorGris.png" alt="testimonial" class="testimonial-img">
+                <p class="testimonial-text">
+                    Mi piel nunca se había sentido tan revitalizada. Fue, literalmente, como ser tocado por la magia del cosmos. 
+                    Definitivamente volveré para otra sesión estelar.
+                </p>
+                <h3 class="testimonial-name">Martina G.</h3>
+            </article>
+            </div>
+        </section>
+
+
+
+
     </main>
 
 
@@ -64,15 +110,18 @@
         <nav>
             <ul class="footer-list">
                 <li class="footer-item-top"><span class="material-symbols-outlined">
-                    location_on
-                    </span>Tierra: 76.972298, -42.599252</li>
+                        location_on
+                    </span>
+                    <div id="location"></div>
+                </li>
                 <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
             </ul>
         </nav>
-    
     </footer>
+    
 
+<script src="script.js"></script>
 </body>
 </html>
