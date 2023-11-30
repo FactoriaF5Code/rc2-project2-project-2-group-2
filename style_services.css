@@ -1,0 +1,284 @@
+/* Reseteo de la página */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/*Variables*/
+:root {
+    --header-bgcolormain: #151A38;
+    --header-colormain: #fff;
+    --header-colorsecond: #000;
+    --main-bgcolormain: #F4D8A0;
+    --main-bgcolor1: #E0F0EB;
+    --main-bgcolor2: #B9B6A1;
+    --main-bgcolor3: #C1FABE; 
+    --main-fontfamily: 'Cormorant Garamond', serif;
+    --main-fontfamilytitles: 'Water Brush', cursive;
+}
+
+/*Estilos para el header*/
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--header-bgcolormain);
+    text-align: center;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+ul, li{
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    margin: 0;
+    font-family: var(--main-fontfamily);
+}
+
+li.header-list{
+    margin-right: 80px;
+}
+
+/*Pruebas color hover menu*/
+li.header-list a:hover{
+    color:var(--main-bgcolor3);
+    text-decoration: underline;
+}
+
+li {
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+li a {
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+section.header-booking-section{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    justify-content: space-between;
+    color: whitesmoke;
+    }
+
+/*Pruebas estilo desplegable teléfonos*/
+select#phone{
+    background-color: var(--header-bgcolormain);
+    color: whitesmoke;
+    font-family: var(--main-fontfamily);
+    font-size:16px;
+}
+
+/*Pruebas estilo desplegable teléfonos hover*/
+select#phone:hover{
+    color: var(--main-bgcolor3);
+}
+
+
+button {
+    background-color: var(--header-bgcolormain);
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 20px;
+    border: none;
+    font-family: var(--main-fontfamily);
+}
+
+/*Prueba hover button*/
+button:hover{
+    color: var(--main-bgcolor3);
+    text-decoration: underline;
+}
+
+
+/*Estilos para el contenido*/
+main {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+h2{
+    font-family: var(--main-fontfamilytitles);
+    color:white;
+    font-weight: 400;
+    font-size:36px;
+    text-align: center;
+    margin-bottom:20px;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+h2 a{
+    color:white;
+}
+
+h2 a:hover{
+    color: var(--main-bgcolor2);
+}
+
+.boton_ReservaAhora{
+    margin:auto;
+    width:234px;
+    height: 60px;
+    background-color: var(--header-bgcolormain);
+    border:solid 1px white;
+    border-radius: 30px;
+    color: white;
+    font-family:var(--main-fontfamily);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:70px;
+}
+
+.boton_ReservaAhora:hover{
+    background-color: var(--main-bgcolor2);
+    color:var(--header-bgcolormain);
+    border:solid 1px var(--main-bgcolor2);
+    font-weight: 800;
+}
+
+/*Estilos para Masaje*/
+.section_Masaje{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(/img/masaje-oscurecido\ 1.png);
+    height:700px;    
+}
+
+.descripcion_Masaje{
+    background-color: var(--main-bgcolormain);
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding:0px 44px; 
+    font-family: var(--main-fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--header-bgcolormain);
+}
+
+/*Estilos para Terapia*/
+.section_Terapia{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(/img/flotacion-oscurecido\ 1.png);
+    height:700px;    
+}
+
+.descripcion_Terapia{
+    background-color: var(--main-bgcolor1);
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding:0px 44px; 
+    font-family: var(--main-fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--header-bgcolormain);
+}
+
+/*Estilos para Cristaloterapia*/
+.section_Cristaloterapia{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(/img/cristaloterapia-oscurecido\ 1.png);
+    height:700px;    
+}
+
+.descripcion_Cristaloterapia{
+    background-color: var(--main-bgcolor2);
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding:0px 44px; 
+    font-family: var(--main-fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--header-bgcolormain);
+}
+
+/*Estilos para facial*/
+.section_Facial{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(/img/facial-oscurecido\ 1.png);
+    height:700px;    
+}
+
+.descripcion_Facial{
+    background-color: var(--main-bgcolor3);
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding:0px 44px; 
+    font-family: var(--main-fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--header-bgcolormain);
+}
+
+/*Estilos para el footer*/
+/*En footer cambién el padding por padding-left para que el logo se pegue abajo*/
+footer {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: var(--header-bgcolormain);
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+/*En el footer-list añadí gap y quité margin-right para justificar a la derecha*/
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 20px;
+    gap: 20px;;
+}
+
+.footer-item-top {
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+
+li.social-media:hover {
+    cursor: pointer;
+    color: var(--main-bgcolor3);
+}
+
+img.footer-img{
+    width: 420px;
+    margin-right: 20px;
+}
+
+

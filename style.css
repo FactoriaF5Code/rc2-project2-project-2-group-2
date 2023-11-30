@@ -80,7 +80,6 @@ button.services-btn{
 }
 
 main {
-   
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -10px;
@@ -180,6 +179,6 @@ img.footer-img{
 
 li.social-media:hover {
     cursor: pointer;
-  }
+}
 
 
