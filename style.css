@@ -178,4 +178,8 @@ img.footer-img{
     margin-right: 20px;
 }
 
+li.social-media:hover {
+    cursor: pointer;
+  }
+
 

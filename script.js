@@ -33,4 +33,8 @@ phoneSelect.addEventListener('change', function() {
     locationDiv.innerText = selectedLocation;
 });
 
+function showMessage(socialMedia) {
+    alert('Aun estamos trabajando en tener ' + socialMedia + ', gracias por tu paciencia');
+  }
+
 
