@@ -96,9 +96,6 @@ button:hover{
     cursor: pointer;
 }
 
-
-
-
 h1{
     font-size: 72px;
     font-family: "Water-Brush", cursive;
@@ -197,12 +194,6 @@ h2.testimonials-title {
     text-align: center;
 }
 
-
-
-
-
-
-
 footer {
     display: flex;
     align-items: center;
@@ -235,7 +226,3 @@ img.footer-img{
     width: 420px;
     margin-right: 20px;
 }
-
-
-
-
