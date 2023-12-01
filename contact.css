@@ -11,18 +11,14 @@ main {
     flex: 1;
     display: flex;
     overflow-y: auto;
+    background-color: rgba(185, 182, 161, 1);
 }
 
-section {
-    flex: 1;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    padding: 20px;
-}
 
 /* Customize styles as needed */
 #section1 {
-    background-color: #f0f0f0;
+    margin: auto;
+    width: 50%;
 }
 
 
@@ -36,7 +32,7 @@ label {
     margin-bottom: 8px;
 }
 
-input, select, button {
+input, select {
     margin-bottom: 16px;
     padding: 8px;
     font-size: 22px;
@@ -58,9 +54,37 @@ input, select, button {
     background-image: url('img/contact-girl.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    margin-top: -10px;
+    position:static
 }
 
 form {
     width: 60%;
     margin-left: 40px;
+}
+
+.boton_ReservaAhora{
+    margin:auto;
+    width:234px;
+    height: 60px;
+    background-color: var(--header-bgcolormain);
+    border:solid 1px white;
+    border-radius: 30px;
+    color: white;
+    font-family:var(--main-fontfamily);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:70px;
+}
+
+.boton_ReservaAhora:hover{
+    background-color: var(--main-bgcolor2);
+    color:var(--header-bgcolormain);
+    border:solid 1px var(--main-bgcolor2);
+    font-weight: 800;
 }

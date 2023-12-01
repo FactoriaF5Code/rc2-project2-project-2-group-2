@@ -63,8 +63,9 @@
     <section class="bg-contact"></section>
 </main>
 
+
 <footer>
-    <img class ="footer-img"src="img/spa-galactico-horizontal 2.png" alt="logo" class="logo">   
+    <a href="index.html"><img class ="footer-img"src="img/spa-galactico-horizontal 2.png" alt="logo" class="logo"></a>   
     <nav>
         <ul class="footer-list">
             <li class="footer-item-top"><span class="material-symbols-outlined">
@@ -72,12 +73,15 @@
                 </span>
                 <div id="location"></div>
             </li>
-            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-media" onclick="showMessage('Twitter')"><i class="fab fa-twitter"></i></li>
+            <li class="social-media" onclick="showMessage('Instagram')"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-media" onclick="showMessage('Facebook')"><i class="fab fa-facebook-f"></i></a></li>
         </ul>
     </nav>
 </footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
