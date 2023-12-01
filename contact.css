@@ -25,11 +25,6 @@ section {
     background-color: #f0f0f0;
 }
 
-#section2 {
-    background-color: #e0e0e0;
-}
-
-
 
 /* Additional styles for the form elements */
 form {
@@ -44,6 +39,12 @@ label {
 input, select, button {
     margin-bottom: 16px;
     padding: 8px;
+    font-size: 22px;
+}
+#tratamiento {
+    color: rgb(191, 64, 64);
+    font-size: 42px;
+    height: 40px;
 }
 
 .cursiv-title {
@@ -51,10 +52,16 @@ input, select, button {
     font-family: "Water-Brush", cursive;
     /*margin-right: 20px;*/
     color: rgb(88, 85, 85);
+    text-align: center;
 }
 
 .bg-contact {
     background-image: url('img/contact-girl.png');
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+form {
+    width: 60%;
+    margin-left: 40px;
 }

@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-   
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spa Galactico</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
 
-    </style>
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Water+Brush&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
 <body>
 
     <header>
-
-        <img src="img/logo-spa-blanco 1.png" alt="logo" class="logo">
+        <a href="/index.html"><img src="/img/logo-spa-blanco 1.png" alt="logo" class="logo"></a>
         <nav>
             <ul>
-                <li class="header-list"><a href="services.html">SERVICIOS</a></li>
-                <li class="header-list"><a href="contact.html">CONTACTO</a></li>
+                <li class="header-list"><a href="index.html">INICIO</a></li>
+                <li class="header-list"><a href="SERVICES.html">SERVICIOS</a></li>
             </ul>
         </nav>
 
@@ -44,8 +45,8 @@
             <input type="text" id="name" name="name" placeholder="Nombre y Apellido">
             <input type="email" id="email" name="email" placeholder="Correo electronico">
 
-            <label for="country">ESCOGE TU TRATAMIENTO</label>
-            <select id="country" name="country">
+            <label for="tratamiento">ESCOGE TU TRATAMIENTO</label>
+            <select id="tratamiento" name="tratamiento">
                 <option value="masaje">Masaje con polvo de estrellas</option>
                 <option value="terapia">Terapia de flotación lunar</option>
                 <option value="cristaloterapia">Cristaloterapia estelar</option>
@@ -55,16 +56,11 @@
             <label for="email">FECHA Y CITA</label>
             <input type="date" id="date" name="date">
 
-            <button type="submit">Submit</button>
+            <button class="boton_ReservaAhora" type="submit">Submit</button>
         </form>
     </section>
     
-    <section id="section2" class="bg-contact">
-        <!-- Content for the second section goes here -->
-        <h2>S</h2>
-        <p>This is the content of section 2.</p>
-        <!-- Add more content as needed -->
-    </section>
+    <section class="bg-contact"></section>
 </main>
 
 <footer>
