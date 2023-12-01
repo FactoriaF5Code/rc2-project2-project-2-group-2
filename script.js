@@ -1,11 +1,11 @@
-const phoneSelect = document.getElementById('phone');
-const locationDiv = document.getElementById('location');
+const phoneSelect = document.getElementById('phone');  // Seleccionamos el elemento con id phone
+const locationDiv = document.getElementById('location'); // Seleccionamos el elemento con id location
 
-let defaultLocation = 'Tierra: 76.972298, -42.599252';
+let defaultLocation = 'Tierra: 76.972298, -42.599252'; // Definimos la variable defaultLocation con el valor de la Tierra
 locationDiv.innerText = defaultLocation;
 
 
-phoneSelect.addEventListener('change', function() {
+phoneSelect.addEventListener('change', function() { // Añadimos un evento change al elemento phoneSelect para que al seleccionar un telefono cambie la localización
     const selectedValue = phoneSelect.value;
     let selectedLocation = '';
 
@@ -30,10 +30,10 @@ phoneSelect.addEventListener('change', function() {
             break;
     }
 
-    locationDiv.innerText = selectedLocation;
+    locationDiv.innerText = selectedLocation; // Cambiamos el texto del elemento locationDiv por el valor de la variable selectedLocation
 });
 
-function showMessage(socialMedia) {
+function showMessage(socialMedia) { // Definimos la función showMessage con el parámetro socialMedia para que se muestre un mensaje cuando se haga click en el botón de la red social
     alert('Aun estamos trabajando en tener ' + socialMedia + ', gracias por tu paciencia');
   }
 
